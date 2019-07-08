@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/booked/main",
+    "pages/selectCard/main",
+    "pages/yearsCardShare/main",
+    "pages/courseInfo/main",
+    "pages/me/main",
+    "pages/course/main",
+    "pages/stores/main",
+    "pages/booking/main",
+    "pages/selectChild/main",
+    "pages/yearsCardDetail/main",
+    "pages/successPage/main",
+    "pages/wsuccessPage/main",
+    "pages/storeMap/main",
+    "pages/qz-home/main",
+    "pages/qz-share/main",
+    "pages/qz-allsignin/main",
+    "pages/qz-circle/main",
+    "pages/qz-member/main",
+    "pages/qz-mission/main",
+    "pages/qz-message/main",
+    "pages/qz-joincircle/main",
+    "pages/qz-theme/main",
+    "pages/qz-publish/main",
+    "pages/qz-webview/main",
+    "pages/qz-myPublish/main",
+    "pages/qz-course/main",
+    "pages/qz-alltasklist/main",
+    "pages/qz-courseinfo/main",
+    "pages/qz-mycourse/main",
+    "pages/qz-questions/main",
+    "pages/qz-apply/main",
+    "pages/qz-WXACode/main",
+    "pages/qz-problem/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将获取附近门店信息"
+    }
+  },
+  "subpackages": [
+    {
+      "root": "pages/packageMe/",
+      "pages": [
+        "buyCard/main",
+        "cardManagement/main",
+        "addFamilyMember/main",
+        "waitOrder/main",
+        "cancelOrder/main",
+        "completeOrder/main",
+        "teacherAdmin/main",
+        "orderComment/main",
+        "waitSchedule/main",
+        "sendCard/main",
+        "cancelSchedule/main",
+        "userInfo/main",
+        "completeSchedule/main",
+        "auditionCardDetail/main",
+        "auditionCourseInfo/main",
+        "auditionBooking/main",
+        "auditionCourse/main",
+        "auditionSelectChild/main",
+        "auditionSelectCard/main",
+        "buyAuditionCard/main",
+        "branchActivity/main",
+        "protocolPage/main",
+        "buyLesson/main",
+        "VIPinfo/main",
+        "agreement/main",
+        "topId3Booking/main"
+      ]
+    }
+  ],
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/course/main"
+      },
+      {
+        "pagePath": "pages/qz-home/main"
+      },
+      {
+        "pagePath": "pages/booked/main"
+      },
+      {
+        "pagePath": "pages/me/main"
+      }
+    ],
+    "position": "bottom"
+  }
+}
